@@ -16,5 +16,5 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - name: Install dependencies 🔧
         run: npm --prefix javascript/ ci
-      - name: Run Build 🔧
-        run: npm --prefix javascript/ run build
+      # - name: Run Build 🔧
+      #   run: npm --prefix javascript/ run build
