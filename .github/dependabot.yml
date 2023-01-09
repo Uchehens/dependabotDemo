@@ -1,38 +1,11 @@
 ---
 version: 2
 updates:
-#  - package-ecosystem: "github-actions"
-#    directory: "/"
-#    schedule:
-#      interval: daily
-#      time: "08:00"
-#      timezone: "Europe/London"
-#    # Disable version updates for npm dependencies
-#    # open-pull-requests-limit: 0
-#    open-pull-requests-limit: 6
-#    target-branch: "dependabot-patch-1"    
   - package-ecosystem: npm
     directory: "/javascript"
     schedule:
       interval: daily
       #time: "15:00"
       #timezone: "Europe/London"
-    #ignore:
-        #- dependency-name: "express"
-          # For Express, ignore all updates for version 4 and 5
-        #  versions: ["4.x", "5.x"]
-          # For Lodash, ignore all updates
-        #- dependency-name: "lodash"
-          # For AWS SDK, ignore all patch updates
-        #- dependency-name: "aws-sdk"
-        #  update-types: ["version-update:semver-patch"]      
-    target-branch: "dependabot-patch-npm"      
+    target-branch: "dependabot-patch-npm"
     open-pull-requests-limit: 6
-#  - package-ecosystem: bundler
-#    directory: "/ruby"
-#    schedule:
-#      interval: daily
-#      time: "08:00"
-#      timezone: "Europe/London"      
-#    open-pull-requests-limit: 6
-#    target-branch: "dependabot-patch-1"
