@@ -15,6 +15,6 @@ jobs:
           node-version: "14.x"
           registry-url: "https://registry.npmjs.org"
       - name: Install dependencies 🔧
-        run: npm ci
+        run: npm --prefix javascript/ ci
       - name: Run Build 🔧
-        run: npm run build
+        run: npm --prefix javascript/ run build
