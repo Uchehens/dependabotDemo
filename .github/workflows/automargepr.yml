@@ -1,9 +1,6 @@
 name: Dependabot reviewer
 
-on:
-  push:
-    branches:
-      - "main"
+on: pull_request_target
 
 permissions:
   pull-requests: write
