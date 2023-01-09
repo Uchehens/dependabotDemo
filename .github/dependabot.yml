@@ -4,7 +4,7 @@ updates:
     directory: "/javascript"
     schedule:
       interval: daily
-      time: "15:27"
-      timezone: "Europe/London"
+      # time: "15:27"
+      # timezone: "Europe/London"
     target-branch: "dependabot-patch-npm"
     open-pull-requests-limit: 6
