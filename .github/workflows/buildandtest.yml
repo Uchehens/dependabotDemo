@@ -2,6 +2,10 @@ name: Publish to NPM
 
 on: pull_request_target
 
+permissions:
+  pull-requests: write
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,5 +21,6 @@ jobs:
         run: npm --prefix $PR_PATH ci
         env:
           PR_PATH: ${{github.event.pull_request.labels.description}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       # - name: Run Build 🔧
       #   run: npm --prefix javascript/ run build
