@@ -6,5 +6,6 @@ updates:
       interval: daily
       # time: "15:27"
       # timezone: "Europe/London"
-    target-branch: "dependabot-patch-npm"
     open-pull-requests-limit: 6
+    labels:
+      - "javascript"
