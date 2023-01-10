@@ -3,35 +3,42 @@
 
 
 "@handsontable/formulajs@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.npmjs.org/@handsontable/formulajs/-/formulajs-2.0.2.tgz"
+  "integrity" "sha512-maIyMJtYjA5e/R9nyA22Qd7Yw73MBSxClJvle0a8XWAS/5l6shc/OFpQqrmwMy4IXUCmywJ9ER0gOGz/YA720w=="
+  "resolved" "https://registry.npmjs.org/@handsontable/formulajs/-/formulajs-2.0.2.tgz"
+  "version" "2.0.2"
   dependencies:
-    bessel "^1.0.2"
-    jstat "^1.9.2"
+    "bessel" "^1.0.2"
+    "jstat" "^1.9.2"
 
-atob@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
+"atob@^2.1.0":
+  "integrity" "sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg=="
+  "resolved" "https://registry.npmjs.org/atob/-/atob-2.1.2.tgz"
+  "version" "2.1.2"
 
-bessel@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/bessel/-/bessel-1.0.2.tgz"
+"bessel@^1.0.2":
+  "integrity" "sha512-Al3nHGQGqDYqqinXhQzmwmcRToe/3WyBv4N8aZc5Pef8xw2neZlR9VPi84Sa23JtgWcucu18HxVZrnI0fn2etw=="
+  "resolved" "https://registry.npmjs.org/bessel/-/bessel-1.0.2.tgz"
+  "version" "1.0.2"
 
-hot-formula-parser@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/hot-formula-parser/-/hot-formula-parser-4.0.0.tgz"
+"hot-formula-parser@^4.0.0":
+  "integrity" "sha512-diG1UvuQ3HxtfezVUIpvndk/bVkqZJ9Rfv10MdVF7pJEj8P2Jd4iCZSMJCN3lDhnLegaVlfSYSA6+szYNFQUKg=="
+  "resolved" "https://registry.npmjs.org/hot-formula-parser/-/hot-formula-parser-4.0.0.tgz"
+  "version" "4.0.0"
   dependencies:
     "@handsontable/formulajs" "^2.0.2"
-    tiny-emitter "^2.1.0"
+    "tiny-emitter" "^2.1.0"
 
-jstat@^1.9.2:
-  version "1.9.5"
-  resolved "https://registry.npmjs.org/jstat/-/jstat-1.9.5.tgz"
+"jstat@^1.9.2":
+  "integrity" "sha512-cWnp4vObF5GmB2XsIEzxI/1ZTcYlcfNqxQ/9Fp5KFUa0Jf/4tO0ZkGVnqoEHDisJvYgvn5n3eWZbd2xTVJJPUQ=="
+  "resolved" "https://registry.npmjs.org/jstat/-/jstat-1.9.5.tgz"
+  "version" "1.9.5"
 
-lodash@^4.17.16:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+"lodash@^4.17.15":
+  "integrity" "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
+  "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+  "version" "4.17.21"
 
-tiny-emitter@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.1.0.tgz"
+"tiny-emitter@^2.1.0":
+  "integrity" "sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q=="
+  "resolved" "https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.1.0.tgz"
+  "version" "2.1.0"
