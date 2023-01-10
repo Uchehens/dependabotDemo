@@ -18,9 +18,7 @@ jobs:
           node-version: "14.x"
           registry-url: "https://registry.npmjs.org"
       - name: Install dependencies 🔧
-        run: npm --prefix $PR_PATH ci
-        env:
-          PR_PATH: ${{github.event.pull_request.labels.description}}
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        if: contains(github.event.pull_request.labels.*.name, 'javascript')
+        run: npm --prefix javascript ci
       # - name: Run Build 🔧
       #   run: npm --prefix javascript/ run build
