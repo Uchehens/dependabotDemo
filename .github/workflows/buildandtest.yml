@@ -6,9 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Dependabot metadata
-        id: dependabot-metadata
-        uses: dependabot/fetch-metadata@v1.3.1
       - name: Checkout
         uses: actions/checkout@v2
       - name: Setup Node
@@ -19,6 +16,6 @@ jobs:
       - name: Install dependencies 🔧
         run: npm --prefix $PR_PATH ci
         env:
-          PR_PATH: ${{steps.dependabot-metadata.outputs.description}}
+          PR_PATH: ${{github.event.pull_request.labels.description}}
       # - name: Run Build 🔧
       #   run: npm --prefix javascript/ run build
