@@ -6,6 +6,6 @@
   "dependencies": {
     "hot-formula-parser": "^4.0.0",
     "lodash": "^4.17.16",
-    "atob": "^2.1.2"
+    "atob": "^2.1.0"
   }
 }
