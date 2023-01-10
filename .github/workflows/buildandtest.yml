@@ -20,5 +20,3 @@ jobs:
       - name: Install dependencies 🔧
         if: contains(github.event.pull_request.labels.*.name, 'javascript')
         run: npm --prefix javascript ci
-      # - name: Run Build 🔧
-      #   run: npm --prefix javascript/ run build

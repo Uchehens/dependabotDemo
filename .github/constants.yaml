@@ -1,0 +1,8 @@
+
+variables:
+- name: javascriptProject
+  value: javascript
+- name: rubyProject
+  value: ruby
+- name: buddle
+  value: bunddleProject
